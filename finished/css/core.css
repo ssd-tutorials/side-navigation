@@ -1,0 +1,92 @@
+* {
+	border: none;
+	outline: none;
+	font-size: 12px;
+	font-weight: 100;
+}
+html,body,div,p,h1,h2,h3,h4,h5,span,a,table,td,th,dl,dd,dt,img,input,textarea,select {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Arial, Verdana, Sans-serif;
+	text-align: center;
+	line-height: 21px;
+	min-width: 1150px;
+	font-size: 12px;
+	background-color: #000;
+	padding: 20px 0;
+}
+body,a {
+	color: #fff;
+}
+h1 {
+	font-size: 36px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+p {
+	padding-bottom: 16px;
+}
+#wrapper {
+	width: 700px;
+	padding: 20px;
+	margin: 0 auto;
+	background: #222;
+	min-height: 500px;
+	text-align: left;
+}
+#navigationSlide {
+	margin: 20px 0 0 -20px;
+	padding: 0;
+	position: fixed;
+	list-style: none;
+}
+#navigationSlide li,#navigationSlide li a {
+	text-decoration: none;
+	-webkit-border-top-left-radius: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	border-top-left-radius: 6px;
+	border-bottom-left-radius: 6px;
+}
+#navigationSlide li {
+	width: 38px;
+	overflow: hidden;
+	position: absolute;
+	right: 0;
+}
+#navigationSlide li a {
+	line-height: 1em;
+	height: 21px;
+	padding: 11px 8px 0 40px;
+	float: left;
+	color: #fff;
+	font-weight: bold;
+	white-space: nowrap;
+}
+#navigationSlide li#topAbout {
+	top: 0;
+	z-index: 1;
+	background-color: #333;
+	background-image: url(/images/about.png);
+	background-repeat: no-repeat;
+	background-position: 10px 7px;
+}
+#navigationSlide li#topPortfolio {
+	top: 32px;
+	z-index: 2;
+	background-color: #444;
+	background-image: url(/images/portfolio.png);
+	background-repeat: no-repeat;
+	background-position: 10px 8px;
+}
+#navigationSlide li#topContact {
+	top: 64px;
+	z-index: 3;
+	background-color: #555;
+	background-image: url(/images/contact.png);
+	background-repeat: no-repeat;
+	background-position: 10px 6px;
+}
